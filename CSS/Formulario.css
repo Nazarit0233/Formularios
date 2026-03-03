@@ -76,7 +76,7 @@ textarea{
 }
 
 button{
-    background-color: linear-gradient(130deg, pink, indigo);
+    background  : linear-gradient(130deg, pink, indigo);
     color: white;
     border: none;
     padding: 10px 15px;
@@ -88,5 +88,5 @@ button{
 }
 
 button:hover{
-    background-color: linear-gradient(130deg, indigo, pink);
+    background: linear-gradient(130deg, indigo, pink);
 }
