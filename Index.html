@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="CSS/Formulario.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Formulario de producto</h2>
+
+        <form action="" method="get" class="form-container" id="form-product">
+            <div class="form-group">
+                <label for="nombre">Nombre del producto:</label>
+                <input type="text" id="nombre" placeholder="Ingrese el nombre del producto" required minlength="3"
+                    maxlength="20">
+            </div>
+
+            <div class="form-group">
+                <label for="precio">Precio del producto:</label>
+                <input type="number" id="precio" placeholder="Ingrese el precio del producto" required min="1"
+                    max="100000000">
+            </div>
+
+            <div class="form-group">
+                <label for="marca">Marca</label>
+                <input type="text" id="marca" placeholder="Ingrese la marca del producto" required minlength="1"
+                    maxlength="30">
+            </div>
+
+            <div class="form-group">
+                <label for="categoria">Categoría</label>
+                <select id="categoria" required>
+                    <option value="">Seleccione una categoría</option>
+                    <option value="Electrónica">Electrónica</option>
+                    <option value="Ropa">Ropa</option>
+                    <option value="Hogar">Hogar</option>
+                    <option value="otros">Otros</option>
+                </select>
+            </div>
+
+            <div class="form-group full-width">
+                <label for="descripcion">Descripción del producto:</label>
+                <textarea id="descripcion" placeholder="Ingrese una descripción del producto" required minlength="10"
+                    maxlength="500"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="imagen">Imagen del producto:</label>
+                <input type="file" id="imagen" accept="image/*" required>
+                <img class="preview-img" id="preview-img" alt="Vista previa de la imagen">
+            </div>
+
+            <div class="button-container">
+                <button id="btnAgregar" type="submit">Registrar producto</button>
+            </div>
+        </form>
+    </div>
+    <script src="JS/Formulario.js"></script>
+</body>
+
+</html>
