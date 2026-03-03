@@ -23,16 +23,16 @@ body{
     max-width: 600px;
 }
 
-.container-logo-titulo{
+.container-logo{
     display: flex;
     align-items: center;
-    gap: 20px;
+
     font-size: 20px;
 }
 
-.container-logo-Img{
-    height: 50px;
-    width: 50px;
+.logo-Img{
+    max-height: 30px;
+    max-width: 30px;
 }
 
 
