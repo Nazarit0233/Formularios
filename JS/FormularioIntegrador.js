@@ -21,7 +21,7 @@ document.getElementById("form-product").addEventListener("submit", function(even
 
     let nombre = document.getElementById("nombre").value.trim();
     let precio = document.getElementById("precio").value.trim();
-    let marca = document.getElementById("marca").value.trim();
+    let marca = document.getElementById("marca-creador").value.trim();
     let categoria = document.getElementById("categoria").value;
     let descripcion = document.getElementById("descripcion").value.trim();
     let imagenInput = document.getElementById("imagen");
